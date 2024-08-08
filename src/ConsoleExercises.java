@@ -20,6 +20,17 @@ public class ConsoleExercises {
         System.out.format("The value of pi is approximately %s%n", pi);
         System.out.println("Input an integer: ");
         int userInt = scanner.nextInt();
-        System.out.format("Your integer is %s%n%n", userInt);
+        scanner.nextLine();
+        System.out.format("Your integer is %s%n", userInt);
+
+        System.out.println("Enter width: ");
+        int width = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Enter height: ");
+        int height = scanner.nextInt();
+        scanner.nextLine();
+        System.out.println("Enter width: ");
+        int area = width * height;
+        System.out.format("Area is %s%n", area);
     }
 }
